@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<title>Mi Examen</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/common.css">
 	</head>
@@ -20,29 +20,35 @@
 						<div class="col-lg-8">
 							<!-- Botones Dropdown -->
 							<div class="btn-group">
-								<button type="button" class="btn btn-default">Languaje</button>
+								<button type="button" class="btn btn-default">
+										<span><img src="images/flag1.png" alt="en">
+										Languaje</span></button>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										<span class="caret"></span>
 										<span class="sr-only">Toggle Dropdown</span>
 								</button>
 								<ul class="dropdown-menu">
-									<li><a href="#">English</a></li>
-									<li><a href="#">French</a></li>
+									<li>
+										<a href="#"><span><img src="images/flag1.png" alt="En">	English</span></a>
+									</li>
+									<li>
+										<a href="#"><span><img src="images/flag2.png" alt="fr">	French</span></a>
+									</li>
 								</ul>
 							</div>
 							<div class="btn-group">
-								<button type="button" class="btn btn-default">Currency</button>
+								<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-usd">Currency</span></button>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										<span class="caret"></span>
 										<span class="sr-only">Toggle Dropdown</span>
 								</button>
 								<ul class="dropdown-menu">
-									<li><a href="#">Dollar</a></li>
-									<li><a href="#">Euro</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-usd">Dollar</span></a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-euro">Euro</span></a></li>
 								</ul>
 							</div>
 							<div class="btn-group">
-								<button type="button" class="btn btn-default">My Account</button>
+								<button type="button" class="btn btn-default"><span class="glyphicon glyphicon-user"></span>My Account</button>
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										<span class="caret"></span>
 										<span class="sr-only">Toggle Dropdown</span>
@@ -56,7 +62,7 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-4">
-							<span class="	"></span>
+							<span class="glyphicon glyphicon-time"><!-- ICONO CLOCK --></span>
 							<h2>OPENING TIME</h2>
 							<p>	9.00AM - 10.00PM</p>
 						</div>
@@ -67,22 +73,366 @@
 							<div class="input-group">
 								<input type="text" class="form-control" placeholder="Search for...">
 								<span class="input-group-btn">
-										<button class="btn btn-default" type="button"><span class="	"><!-- ICONO DE LUPA --></span></button>
+										<button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"><!-- ICONO DE LUPA --></span></button>
 								</span>
 							</div><!-- /input-group -->
-						</div>
+						</div><!-- /col-lg -->
 					</div>
 					<div class="row">	
-
+						<nav class="nav">
+							<div class="container-fluid">
+								<div class="navbar-header">
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="#">Home</a></li>
+										<li><a href="#contact">Contact Us</a></li>
+										<li class="dropdown pull-right">
+											<a class="dropdown-toggle" data-toggle="dropdown" href="#">	
+												<span class="glyphicon glyphicon-shopping-cart">My Cart</span>
+												<span class="caret"></span>
+											</a>
+											<ul class="dropdown-menu">
+												<li>
+													<a href="#"><img src="images/cart-1.jpg" alt="cart-1"></a>
+													<span>	Alican Consequat</span>
+													<span>1 X $500</span>
+												</li>
+												<li>
+													<a href="#"><img src="images/cart-1.jpg" alt="cart-1"></a>
+													<span>	Alican Consequat</span>
+													<span>1 X $500</span>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
 					</div>
 				</div>
 			</header>
+			<section>	
+				<div class="row">	
+					<div class="col-lg-12">	
+						<div id="carousel1" class="carousel slide" data-ride="carousel">
+							<!-- indicadores -->
+							<ol class="carousel-indicators">
+								<li data-target="#carousel1" data-slide-to="0" class="active"></li>
+								<li data-target="#carousel1" data-slide-to="1"></li>
+							</ol>
+							<!-- contendor de slide -->
+							<div class="carousel-inner" role="listbox">	
+								<div class="item active">	
+									<img src="images/slider1.jpg" class="img-responsive" alt="img">
+									<div class="carousel-caption">	
+										<h1>AUTUMN/WINTER LOOKBOOK</h1>
+										<p>- 2016 COLLECTION -</p>
+									</div>
+								</div>
+								<div class="item">	
+									<img src="images/slider2.jpg" class="img-responsive" alt="img">
+									<div class="carousel-caption">	
+										<h1>AUTUMN/WINTER LOOKBOOK</h1>
+										<p>- 2016 COLLECTION -</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">	
+						<div class="col-lg-6">
+							<img src="images/banner1.jpg" class="img-responsive" alt="banner">
+						</div>
+						<div class="col-lg-6">
+							<img src="images/banner2.jpg" class="img-responsive" alt="banner">
+						</div>
+					</div>
+					
+					<div class="row">	
+						<div class="col-lg-12">	
+							<hr class="hr1">
+							<div>
+								<span class="glyphicon glyphicon-chevron-left"><a href="#">LATEST</a></span>
+								<span><a href="#">BESTSELLER</a></span>
+								<span><a href="#">SALE</a></span>
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</div>
+							<hr class="hr1">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3">
+							<div class="thumbnail">
+								<img class="img-responsive" src="images/a1.jpg" alt="a">
+								<p>Deliver Wide</p>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<p class="	">$218.00</p>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="thumbnail">
+								<img class="img-responsive" src="images/b1.jpg" alt="b">
+								<p>Deliver Wide</p>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<p class="	">$218.00</p>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="thumbnail">
+								<img class="img-responsive" src="images/c1.jpg" alt="c">
+								<p>Deliver Wide</p>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<p class="	">$218.00</p>
+							</div>
+						</div>
+						<div class="col-lg-3">
+							<div class="thumbnail">
+								<img class="img-responsive" src="images/d1.jpg" alt="d">
+								<p>Deliver Wide</p>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<p class="	">$218.00</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="row bg-img1"> <!-- background img -->
+						<div class="col-lg-2"><img class="img-responsive" src="images/client1.jpg" alt=""></div>
+						<div class="col-lg-2"><img class="img-responsive" src="images/client2.jpg" alt=""></div>
+						<div class="col-lg-2"><img class="img-responsive" src="images/client3.jpg" alt=""></div>
+						<div class="col-lg-2"><img class="img-responsive" src="images/client4.jpg" alt=""></div>
+						<div class="col-lg-2"><img class="img-responsive" src="images/client5.jpg" alt=""></div>
+						<div class="col-lg-2"><img class="img-responsive" src="images/client6.jpg" alt=""></div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">	
+						<div class="col-lg-12">	
+							<hr class="hr1">
+							<div>
+								<span class="glyphicon glyphicon-chevron-left"><a href="#">CLOTHING</a></span>
+								<span><a href="#">EQUIPMENTS</a></span>
+								<span><a href="#">JEWERLLY</a></span>
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</div>
+							<hr class="hr1">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2">
+							<img class="img-responsive thumbnail" src="images/a2.jpg" alt="img">
+						</div>
+						<div class="col-lg-2">
+							<p>Deliver Wide</p>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<p class="	">$218.00</p>
+								<button class="btn"></button>
+						</div>
+						<div class="col-lg-2">
+							<img class="img-responsive thumbnail" src="images/a2.jpg" alt="img">
+						</div>
+						<div class="col-lg-2">
+							<p>Deliver Wide</p>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<p class="	">$218.00</p>
+								<button class="btn"></button>
+						</div>
+						<div class="col-lg-2">
+							<img class="img-responsive thumbnail" src="images/a2.jpg" alt="img">
+						</div>
+						<div class="col-lg-2">
+							<p>Deliver Wide</p>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<p class="	">$218.00</p>
+								<button class="btn"></button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-2">
+							<img class="img-responsive thumbnail" src="images/a2.jpg" alt="img">
+						</div>
+						<div class="col-lg-2">
+							<p>Deliver Wide</p>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<p class="	">$218.00</p>
+								<button class="btn"></button>
+						</div>
+						<div class="col-lg-2">
+							<img class="img-responsive thumbnail" src="images/a2.jpg" alt="img">
+						</div>
+						<div class="col-lg-2">
+							<p>Deliver Wide</p>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<p class="	">$218.00</p>
+								<button class="btn"></button>
+						</div>
+						<div class="col-lg-2">
+							<img class="img-responsive thumbnail" src="images/a2.jpg" alt="img">
+						</div>
+						<div class="col-lg-2">
+							<p>Deliver Wide</p>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<span class="glyphicon glyphicon-star-empty"></span>
+								<p class="	">$218.00</p>
+								<button class="btn"></button>
+						</div>
+					</div>
+					<div class="row">	
+						<div class="col-lg-12">	
+							<hr class="hr1">
+							<div>
+								<span class="glyphicon glyphicon-chevron-left"><a href="#">BLOG</a></span>
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</div>
+							<hr class="hr1">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3">
+							<img class="img-responsive" src="images/blog2.jpg" alt="blog">
+							<h4>The TITLE</h4>
+							<p>27/11/2015</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, delectus.</p>
+							<a href=""><span>Read More...</span></a>
+						</div>
+						<div class="col-lg-3">
+							<img class="img-responsive" src="images/blog2.jpg" alt="blog">
+							<h4>The TITLE</h4>
+							<p>27/11/2015</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, delectus.</p>
+							<a href=""><span>Read More...</span></a>
+						</div>
+						<div class="col-lg-3">
+							<img class="img-responsive" src="images/blog2.jpg" alt="blog">
+							<h4>The TITLE</h4>
+							<p>27/11/2015</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, delectus.</p>
+							<a href=""><span>Read More...</span></a>
+						</div>
+						<div class="col-lg-3">
+							<img class="img-responsive" src="images/blog2.jpg" alt="blog">
+							<h4>The TITLE</h4>
+							<p>27/11/2015</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, delectus.</p>
+							<a href=""><span>Read More...</span></a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4">
+							<div class=" row thumbnail">
+								<div class="col-lg-2"><span class="glyphicon glyphicon-plane"></span></div>
+								<div class="col-lg-10"><h4 class="">Lorem ipsum dolor sit.</h4>
+								<p><small>Lorem ipsum dolor.</small></p></div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class=" row thumbnail">
+								<div class="col-lg-2"><span class="glyphicon glyphicon-plane"></span></div>
+								<div class="col-lg-10"><h4 class="">Lorem ipsum dolor sit.</h4>
+								<p><small>Lorem ipsum dolor.</small></p></div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class=" row thumbnail">
+								<div class="col-lg-2"><span class="glyphicon glyphicon-plane"></span></div>
+								<div class="col-lg-10"><h4 class="">Lorem ipsum dolor sit.</h4>
+								<p><small>Lorem ipsum dolor.</small></p></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-3">
+							<h4>ACCESORIES</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste tenetur, similique. Ullam repellendus blanditiis ipsum, incidunt nihil vero aspernatur, dolorem saepe delectus odit deserunt, omnis, iusto. Ab aut reprehenderit voluptates.</p>
+							<div>
+								<span class="glyphicon glyphicon-cloud"><!-- redes sociales --></span>
+								<span class="glyphicon glyphicon-cloud"><!-- redes sociales --></span>
+								<span class="glyphicon glyphicon-cloud"><!-- redes sociales --></span>
+								<span class="glyphicon glyphicon-cloud"><!-- redes sociales --></span>
+								<span class="glyphicon glyphicon-cloud"><!-- redes sociales --></span>								
+							</div>
+						</div>
+						<div class="col-lg-2"><h4>MY ACCOUNT</h4><ul>
+							<li><small><span class="glyphicon glyphicon-triangle-right">Delivery Infrmacion</span></small></li>
+							<li><small><span class="glyphicon glyphicon-triangle-right">Delivery Infrmacion</span></small></li>
+							<li><small><span class="glyphicon glyphicon-triangle-right">Delivery Infrmacion</span></small></li>
+							<li><small><span class="glyphicon glyphicon-triangle-right">Delivery Infrmacion</span></small></li>
+						</ul></div>
+						<div class="col-lg-2"><h4>MY ACCOUNT</h4><ul>
+							<li><small><span class="glyphicon glyphicon-triangle-right">Delivery Infrmacion</span></small></li>
+							<li><small><span class="glyphicon glyphicon-triangle-right">Delivery Infrmacion</span></small></li>
+							<li><small><span class="glyphicon glyphicon-triangle-right">Delivery Infrmacion</span></small></li>
+							<li><small><span class="glyphicon glyphicon-triangle-right">Delivery Infrmacion</span></small></li>
+						</ul></div>
+						<div class="col-lg-2"><h4>MY ACCOUNT</h4><ul>
+							<li><small><span class="glyphicon glyphicon-triangle-right">Delivery Infrmacion</span></small></li>
+							<li><small><span class="glyphicon glyphicon-triangle-right">Delivery Infrmacion</span></small></li>
+							<li><small><span class="glyphicon glyphicon-triangle-right">Delivery Infrmacion</span></small></li>
+							<li><small><span class="glyphicon glyphicon-triangle-right">Delivery Infrmacion</span></small></li>
+						</ul></div>
+						<div class="col-lg-3">
+						<h4>ABOUT US</h4>
+						<span class="glyphicon glyphicon-cloud">Lorem ipsum dolor sit amet</span>
+						<span class="glyphicon glyphicon-cloud">Lorem ipsum dolor sit amet</span>
+						<span class="glyphicon glyphicon-cloud">Lorem ipsum dolor sit amet</span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-6">CopyRight &#160 by Lil</div>
+						<div class="col-lg-6"><img src="images/payment.png" alt=""></div>
+					</div>
+				</div>
+			</footer>
 		</div>
 
-
+		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/bootstrap-hover-dropdown.min.js"></script>
-		<script src="js/jquery.js"></script>
+		
 		<script src="js/respond.js"></script>
 	</body>
 
